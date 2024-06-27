@@ -6,3 +6,43 @@
     border-bottom: 1px solid;
     border-color: #ededed;
 }
+
+.sales-info > p {
+    color: #5a5a5a;
+}
+
+.sales-info > h3 {
+    margin-bottom: 0px;
+}
+
+.sales-info-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.sales-info-title  .fa-upload {
+    margin-right: 10px;
+    color: #3eb0eb;
+    font-size: 2vh;
+}
+
+.sales-info-title-sales {
+    display: flex;
+    align-items: baseline;
+}
+
+.sales-info-info{
+    display: flex;
+    align-items: baseline;
+    margin-right: 2vh;
+    padding-top: 2vh;
+}
+
+.sales-info-info .fa-info-circle{
+    color: #beb9ba;
+}
+
