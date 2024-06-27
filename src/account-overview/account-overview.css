@@ -4,6 +4,7 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+  background-color: #f4f4f4;
 }
 
 .account-container{
@@ -12,4 +13,9 @@
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.account-overview-container{
+  background-color: #ffffff;
+  border-radius: 5px;
 }

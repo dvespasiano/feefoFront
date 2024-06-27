@@ -7,7 +7,7 @@ import '../app.css';
 const SalesMetrics = ({ uploadSuccess, linesSaved }) => (
   <div className="sales-metrics">
     <div className="metric">
-      <p>{uploadSuccess}%</p>
+      <h1>{uploadSuccess}%</h1>
       <p>UPLOAD SUCCESS</p>
     </div>
     <div className="metric">

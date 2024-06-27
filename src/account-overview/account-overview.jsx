@@ -19,9 +19,10 @@ export const AccountOverview = ({ data }) => {
         phone="020 3362 4208"
       />
         </div>
-
-      <SalesInfo uploads={0} linesAdded={0} />
-      <SalesMetrics uploadSuccess={0} linesSaved={0} />
+    <div className='account-overview-container'>
+    <SalesInfo uploads={0} linesAdded={0} />
+    <SalesMetrics uploadSuccess={0} linesSaved={0} />
+    </div>
     </div>
   )
 }

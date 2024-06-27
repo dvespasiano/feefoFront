@@ -40,7 +40,3 @@ body {
     transform: rotate(360deg);
   }
 }
-
-.sales-info, .sales-metrics {
-  margin-bottom: 20px;
-}

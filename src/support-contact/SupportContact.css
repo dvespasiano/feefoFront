@@ -25,10 +25,6 @@
   align-items: flex-start;
 }
 
-.contact-details  {
-
-}
-
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -45,6 +41,6 @@
   flex-direction: row;
 }
 
-.contact-info p {
-
+.support-contact > h3 {
+  color: #bdbbbb;
 }
