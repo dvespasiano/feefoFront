@@ -12,7 +12,9 @@ export const AccountOverview = ({ data }) => {
   return (
     <div className="AccountOverview">
       <div className="account-container">
-      <h1>Account Overview</h1>
+        <div  className="account-container-title">
+        <p>Account Overview</p>
+        </div>
       <SupportContact 
         name="Support" 
         email="support@feefo.com" 
