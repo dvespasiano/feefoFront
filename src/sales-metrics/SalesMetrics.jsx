@@ -7,12 +7,12 @@ import '../app.css';
 const SalesMetrics = ({ uploadSuccess, linesSaved }) => (
   <div className="sales-metrics">
     <div className="metric">
-      <h1>{uploadSuccess}%</h1>
-      <p>UPLOAD SUCCESS</p>
+      <p>{uploadSuccess}%</p>
+      <p  className='text-info'>UPLOAD SUCCESS</p>
     </div>
     <div className="metric">
       <p>{linesSaved}%</p>
-      <p>LINES SAVED</p>
+      <p className='text-info'>LINES SAVED</p>
     </div>
   </div>
 );
