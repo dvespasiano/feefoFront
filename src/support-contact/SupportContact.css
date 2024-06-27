@@ -60,13 +60,13 @@ color: #595657;
 }
 
 .contact-info-details > .fa-envelope{
-  margin-top: 1vh;
+  margin-top: 0.5vh;
   color: #606060;
 }
 
 
 .contact-info-details > p{
-  margin-top: 1vh;
+  margin-top: 0.5vh;
   color: #606060;
   margin-right: 20px;
 }
