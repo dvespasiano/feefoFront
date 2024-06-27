@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import './SupportContact.css';
 import '../app.css';
@@ -14,7 +16,8 @@ const SupportContact = ({ name, email, phone }) => (
         <p>{name}</p>
         </div>
         <div className="contact-info-details">
-        <p><a href={`mailto:${email}`}>{email}</a></p>
+        <FontAwesomeIcon icon={faEnvelope} />
+        <p>{email}</p>
         <p>{phone}</p>
         </div>
       </div>

@@ -5,15 +5,16 @@
 }
 
 .contact-initial {
-  background-color: #f0c040;
+  background-color: #f9cf03;
   border-radius: 10%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 20px;
   margin-right: 10px;
+  font-weight: bold;
 }
 
 .support-contact {
@@ -43,4 +44,29 @@
 
 .support-contact > h3 {
   color: #bdbbbb;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.support-contact{
+  width: 60%;
+}   
+
+.contact-info-name > p {
+margin-bottom: 0px;
+font-size: 2vh;
+font-weight: bold;
+color: #595657;
+}
+
+.contact-info-details > .fa-envelope{
+  margin-top: 1vh;
+  color: #606060;
+}
+
+
+.contact-info-details > p{
+  margin-top: 1vh;
+  color: #606060;
+  margin-right: 20px;
 }
