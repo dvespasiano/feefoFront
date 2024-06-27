@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './SalesMetrics.css';
+import '../app.css';
+
 const SalesMetrics = ({ uploadSuccess, linesSaved }) => (
   <div className="sales-metrics">
     <div className="metric">

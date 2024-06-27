@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './SupportContact.css';
+import '../app.css';
+
 const SupportContact = ({ name, email, phone }) => (
   <div className="support-contact">
     <h2>Your Feefo Support Contact</h2>

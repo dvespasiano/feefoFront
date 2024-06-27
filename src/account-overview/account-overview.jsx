@@ -3,6 +3,7 @@ import SalesInfo from '../sales-info/SalesInfo';
 import SalesMetrics from '../sales-metrics/SalesMetrics';
 
 import './account-overview.css';
+import '../app.css';
 
 export const AccountOverview = ({ data }) => {
   console.log(data);

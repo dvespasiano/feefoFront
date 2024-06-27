@@ -40,3 +40,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.support-contact, .sales-info, .sales-metrics {
+  margin-bottom: 20px;
+}
