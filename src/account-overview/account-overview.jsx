@@ -1,6 +1,7 @@
 import React from 'react';
 import SalesInfo from '../sales-info/SalesInfo';
 import SalesMetrics from '../sales-metrics/SalesMetrics';
+import SupportContact from '../support-contact/SupportContact';
 
 import './account-overview.css';
 import '../app.css';
@@ -10,6 +11,15 @@ export const AccountOverview = ({ data }) => {
 
   return (
     <div className="AccountOverview">
+      <div className="account-container">
+      <h1>Account Overview</h1>
+      <SupportContact 
+        name="Support" 
+        email="support@feefo.com" 
+        phone="020 3362 4208"
+      />
+        </div>
+
       <SalesInfo uploads={0} linesAdded={0} />
       <SalesMetrics uploadSuccess={0} linesSaved={0} />
     </div>

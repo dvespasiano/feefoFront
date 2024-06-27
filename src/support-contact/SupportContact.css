@@ -1,11 +1,12 @@
 .contact-details {
   display: flex;
-  align-items: center;
+  align-items:center;
+  flex-direction: row;
 }
 
 .contact-initial {
   background-color: #f0c040;
-  border-radius: 50%;
+  border-radius: 10%;
   width: 40px;
   height: 40px;
   display: flex;
@@ -13,4 +14,37 @@
   justify-content: center;
   font-size: 20px;
   margin-right: 10px;
+}
+
+.support-contact {
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-details  {
+
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-info-details{
+  display: flex;
+  gap: 10px;
+}
+
+.contact-info-name{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-info p {
+
 }

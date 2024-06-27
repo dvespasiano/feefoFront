@@ -6,13 +6,17 @@ import '../app.css';
 
 const SupportContact = ({ name, email, phone }) => (
   <div className="support-contact">
-    <h2>Your Feefo Support Contact</h2>
+    <h3>Your Feefo Support Contact</h3>
     <div className="contact-details">
       <span aria-label="Support Initial" className="contact-initial">S</span>
-      <div>
+      <div className="contact-info">
+        <div  className="contact-info-name">
         <p>{name}</p>
+        </div>
+        <div className="contact-info-details">
         <p><a href={`mailto:${email}`}>{email}</a></p>
         <p>{phone}</p>
+        </div>
       </div>
     </div>
   </div>
