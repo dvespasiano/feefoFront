@@ -1,6 +1,6 @@
 .contact-details {
   display: flex;
-  align-items:center;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -21,7 +21,7 @@
   text-align: left;
   margin-bottom: 20px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -32,40 +32,40 @@
   align-items: flex-start;
 }
 
-.contact-info-details{
+.contact-info-details {
   display: flex;
   gap: 10px;
 }
 
-.contact-info-name{
+.contact-info-name {
   display: flex;
   flex-direction: row;
 }
 
-.support-contact > h3 {
+.support-contact>h3 {
   color: #bdbbbb;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 
-.support-contact{
+.support-contact {
   width: 60%;
-}   
-
-.contact-info-name > p {
-margin-bottom: 0px;
-font-size: 2vh;
-font-weight: bold;
-color: #595657;
 }
 
-.contact-info-details > .fa-envelope{
+.contact-info-name>p {
+  margin-bottom: 0px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: #595657;
+}
+
+.contact-info-details>.fa-envelope {
   margin-top: 0.5vh;
   color: #606060;
 }
 
 
-.contact-info-details > p{
+.contact-info-details>p {
   margin-top: 0.5vh;
   color: #606060;
   margin-right: 20px;

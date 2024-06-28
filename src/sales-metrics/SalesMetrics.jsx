@@ -8,7 +8,7 @@ const SalesMetrics = ({ uploadSuccess, linesSaved }) => (
   <div className="sales-metrics">
     <div className="metric">
       <p>{uploadSuccess}%</p>
-      <p  className='text-info'>UPLOAD SUCCESS</p>
+      <p className='text-info'>UPLOAD SUCCESS</p>
     </div>
     <div className="metric">
       <p>{linesSaved}%</p>
